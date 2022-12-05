@@ -22,4 +22,9 @@ public class StudentController {
         return "You are now in  Gallery page";
     }
 
+    @GetMapping("/homepage2")
+    public String Homepage2(){
+        return "You are now in Home page 2";
+    }
+
 }
